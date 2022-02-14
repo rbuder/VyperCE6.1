@@ -8,7 +8,13 @@ You may take this source and build for your board but it is your responsibility 
 
 ### Development and compile-it-yourself
 
-If you have the Platform.io plugin installed in Visual Studio code you can open the folder to start with the code.
+If you have the Platform.io plugin installed in Visual Studio code you can open the folder to start compiling with the code.
+Please note if you have previously compiled the Anycubic source and followed their instructions then you will have a modified ArduinoSTM32 framework and this will give an error during the compile, please rename or delete the framework file and the correct version should be downloaded and compiled successfully.
+Framework file can be found here:
+```
+C:\Users\<user>\.platformio\packages\framework-arduinoststm32@4.10900.200819
+```
+
 
 There are several configurations for the build of the source and they can be found at line 75 onwards of the configuration.h file:
 
