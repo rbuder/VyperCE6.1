@@ -57,7 +57,7 @@ There are advantages and disadvantages to using the nozzle as Z home position, t
 Initially started with the goal of providing an alternative firmware for the Anycubic Vyper motherboard
 
 - Providing better firmware than the default firmwares provided by Anycubic
-- [Expanding the features](https://github.com/CR6Community/CR-6-touchscreen) of the limited default touch screens delivered with 3d printers
+- [Expanding the features](https://github.com/Pmatsol58/CR-6-touchscreen/tree/v2.0.8.1-vyper-community-release-6.1) of the limited default touch screens delivered with 3d printers
 
 Once upstream Marlin supports the strain gauge, [currently being whipped into shape in this PR @Sebazzz has submitted](https://github.com/MarlinFirmware/Marlin/pull/19958), the future of this project will probably be:
 
